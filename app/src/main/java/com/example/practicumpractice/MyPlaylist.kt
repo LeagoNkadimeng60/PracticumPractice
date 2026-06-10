@@ -25,10 +25,9 @@ class MainActivity2 : ComponentActivity() {
             PracticumPracticeTheme {
                 Column() {
                     Text("Enter song details")
-                    var songTitle by remember { mutableStateOf("")}
-                        OutlinedTextField(
-                            value = songTitle,
-                            onValueChange = {songTitle= it}
+                    var songName by remember { mutableStateOf("") }
+                    OutlinedTextField(
+
 
                         )
 
