@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticumPractice">
         <activity
+            android:name=".DetailedView"
+            android:exported="false"
+            android:label="@string/title_activity_detailed_view"
+            android:theme="@style/Theme.PracticumPractice" />
+        <activity
+            android:name=".MyPlaylist"
+            android:exported="false"
+            android:label="@string/title_activity_my_playlist"
+            android:theme="@style/Theme.PracticumPractice" />
+        <activity
             android:name=".MainActivity3"
             android:exported="false"
             android:label="@string/title_activity_main3"
